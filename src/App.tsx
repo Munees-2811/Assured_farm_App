@@ -2112,9 +2112,10 @@ export default function App() {
     }
   }, [users]);
 
-  const saveUsers = (u) => {
+  const saveUsers = async (u) => {
     setUsers(u);
-    DB.set("users", u); // fire-and-forget, don't await
+    const ok = await DB.set("users", u);
+    if (!ok) throw new Error("Failed to save user data to Firebase.");
   };
 
   const handleUpdateUser = async (updated) => {
