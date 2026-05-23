@@ -19,7 +19,7 @@
   - [Building for Production](#building-for-production)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
@@ -137,10 +137,5 @@ Contributions are welcome!
 
 ---
 
-## 📄 License
-
-This project is open source. See the [LICENSE](LICENSE) file for details.
-
----
 
 <p align="center">Made with ❤️ for farmers by <a href="https://github.com/Munees-2811">Muneeswaran</a></p>
